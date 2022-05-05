@@ -7,7 +7,7 @@
 
 [Live Demo of the Project](https://nft-domains-ravikas.vercel.app/)
 
-![NFT Domain Project Image](/NFT-Domains.png)
+![NFT Domain Project Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n5aoi4g64uj7tcioccce.png)
 
 **Note:** You must have Temple wallet and its browser extension,  to interact with this DAPP.
 
