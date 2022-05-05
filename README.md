@@ -1,27 +1,71 @@
-# Next.js + Tailwind CSS Example
+## Next.js ,React. js , Tailwind CSS and Tezos Blockchain Project
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# NFT Domains
+>(This is just a Test Project)
+
+[NFT Domain Project Image]()
+
+**Note:** You must have Temple wallet and its browser extension,  to interact with this DAPP.
+
+## NFT Domains is a Marketplace for buying web-3 based domains.
+
+The user can search any name with the available list of domains ending.
+
+After searching, there will be a check, if the domain the user choose is valid or not, after that user can buy the domain.
+
+After the user buy domain, the user can see the purchased domain inside the My Domain tab.
+
+> **Note: 1 user can buy 1 domain only, because, I have chosen a MAP data structure to store the data.**
+
+**Map<walletAddress, domainName>**
+
+So, if the user purchases the domain again then the previously bought domain will be removed and the new domain bought will be stored in the storage of the Smart Contract.
+
+### Here is the List of the Available domains ending:
+
+    1. .x
+    2. .crypto
+    3. .wallet
+    4. .tez
+    5. .coin
+    6. .bitcoin
+    7. .nft
+    8. .dao
+
+### Tech Stack Used
+
+    1. Next.js
+    2. React.js
+    3. Tailwind CSS
+    4. Tezos Blockchain
+    5. Taquito & Beacon SDK npm libraries 
+    6. SmartPY / SmartTS  for creating the contract
+
 
 ## Preview
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+[Live Demo of the Project]()
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+> Note: Make sure to create Temple wallet as well.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. Install Node.js , if you don't have already.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+2. Git clone the project inside any folder or on desktop 
+
+   ```bash 
+      git clone https://github.com/raiv200/NFT-Domains.git
+   ```
+3. cd NFTDomains
+
+4. Install the neccesary dependencies.
+   
+    ```bash
+     npm install
+    ```
+5. Start developement server
+  
+  ```bash
+     npm run dev
+  ```
