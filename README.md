@@ -3,7 +3,11 @@
 # NFT Domains
 >(This is just a Test Project)
 
-![NFT Domain Project Image]("https://vercel.com/b189c592-5443-46b7-a109-57bf6c96c125")
+## Preview
+
+[Live Demo of the Project](https://nft-domains-ravikas.vercel.app/)
+
+![NFT Domain Project Image](/NFT-Domains.png)
 
 **Note:** You must have Temple wallet and its browser extension,  to interact with this DAPP.
 
@@ -42,9 +46,6 @@ So, if the user purchases the domain again then the previously bought domain wil
     6. SmartPY / SmartTS  for creating the contract
 
 
-## Preview
-
-[Live Demo of the Project](https://nft-domains-ravikas.vercel.app/)
 
 ## How to use
 
