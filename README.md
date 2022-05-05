@@ -3,7 +3,7 @@
 # NFT Domains
 >(This is just a Test Project)
 
-[NFT Domain Project Image]()
+![NFT Domain Project Image](blob:https://vercel.com/b189c592-5443-46b7-a109-57bf6c96c125)
 
 **Note:** You must have Temple wallet and its browser extension,  to interact with this DAPP.
 
@@ -44,7 +44,7 @@ So, if the user purchases the domain again then the previously bought domain wil
 
 ## Preview
 
-[Live Demo of the Project]()
+[Live Demo of the Project](https://nft-domains-ravikas.vercel.app/)
 
 ## How to use
 
@@ -57,7 +57,7 @@ So, if the user purchases the domain again then the previously bought domain wil
    ```bash 
       git clone https://github.com/raiv200/NFT-Domains.git
    ```
-3. cd NFTDomains
+3. cd NFTDomains folder
 
 4. Install the neccesary dependencies.
    
@@ -66,6 +66,6 @@ So, if the user purchases the domain again then the previously bought domain wil
     ```
 5. Start developement server
   
-  ```bash
+    ```bash
      npm run dev
-  ```
+    ```

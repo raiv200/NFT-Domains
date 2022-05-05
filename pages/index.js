@@ -15,7 +15,7 @@ export default function Home({
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>NFT Domains Marketplace</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -71,12 +71,15 @@ export default function Home({
           <hr className="border-1 my-4 border-indigo-500 " />
 
           <div className="my-4 text-center text-sm font-normal text-indigo-100 lg:text-lg ">
-            <p className="mb-3">You are Logged In with Wallet</p>
+           
             {walletAddress && (
+              <div>
+               <p className="mb-3">You are Logged In with Wallet</p>
               <span className="ml-2 rounded-xl bg-indigo-200 px-2 py-1 text-sm font-bold text-indigo-600 lg:text-lg">
                 {walletAddress?.substring(0, 8)}...
                 {walletAddress?.substring(walletAddress?.length - 7)}
               </span>
+              </div>
             )}
           </div>
 
