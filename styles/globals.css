@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+
+    .button {
+        @apply  border border-transparent rounded-md  bg-violet-700 px-2 py-2  shadow-sm hover:bg-violet-500 focus:outline-none focus:ring-4 focus:ring-violet-800 focus:bg-violet-900 focus:ring-offset-2;
+    }
+}
