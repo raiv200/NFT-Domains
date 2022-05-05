@@ -3,7 +3,7 @@
 # NFT Domains
 >(This is just a Test Project)
 
-![NFT Domain Project Image](blob:https://vercel.com/b189c592-5443-46b7-a109-57bf6c96c125)
+![NFT Domain Project Image]("https://vercel.com/b189c592-5443-46b7-a109-57bf6c96c125")
 
 **Note:** You must have Temple wallet and its browser extension,  to interact with this DAPP.
 
